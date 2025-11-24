@@ -8,7 +8,7 @@ define AP_OPTICALFLOW_ENABLED 0
 
 # minimize_common.py removes backends except for a select few.  Add
 # some back in:
-define AP_GPS_NMEA_ENABLED 1
+define AP_GPS_NMEA_ENABLED 0
 
 define AP_MOTORS_FRAME_DEFAULT_ENABLED 0
 define AP_MOTORS_FRAME_QUAD_ENABLED 1
