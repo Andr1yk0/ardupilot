@@ -73,14 +73,18 @@ class Board:
             'AP_Scripting/lua/src',
         ]
 
-        if cfg.options.enable_scripting:
-            env.DEFINES.update(
-                AP_SCRIPTING_ENABLED = 1,
-            )
-        elif cfg.options.disable_scripting:
-            env.DEFINES.update(
-                AP_SCRIPTING_ENABLED = 0,
-            )
+        # if cfg.options.enable_scripting:
+        #     env.DEFINES.update(
+        #         AP_SCRIPTING_ENABLED = 1,
+        #     )
+        # elif cfg.options.disable_scripting:
+        #     env.DEFINES.update(
+        #         AP_SCRIPTING_ENABLED = 0,
+        #     )
+
+        env.DEFINES.update(
+            AP_SCRIPTING_ENABLED = 1,
+        )
 
         # embed any scripts from ROMFS/scripts
         if os.path.exists('ROMFS/scripts'):
