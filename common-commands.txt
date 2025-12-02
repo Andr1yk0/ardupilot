@@ -1,2 +1,2 @@
 sim_vehicle.py --help
-sim_vehicle.py -v ArduCopter -N --no-configure --add-param-file=./Tools/autotest/custom.param
+./Tools/autotest/sim_vehicle.py -v ArduCopter -N --no-configure --add-param-file=./Tools/autotest/custom.param --console --map
