@@ -1,1 +1,1 @@
-gcs:send_text(0, "hello, world")
+gcs:send_text(0, "hello, world!")

@@ -964,7 +964,7 @@ class sitl_periph(sitl):
             AP_RCPROTOCOL_ENABLED = 0,
             AP_RTC_ENABLED = 0,
             AP_SCHEDULER_ENABLED = 0,
-            AP_SCRIPTING_ENABLED = 0,
+            AP_SCRIPTING_ENABLED = 1,
             AP_STATS_ENABLED = 0,
             AP_UART_MONITOR_ENABLED = 1,
             COMPASS_CAL_ENABLED = 0,
